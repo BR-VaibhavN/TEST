@@ -1,9 +1,5 @@
 public class AccountController{
-    public AccountController (){
-
-    }
-
-    // branch two
+   // branch two
     void createAccount (){
         Account acc = new Account(
             Name = 'TEST Account'
