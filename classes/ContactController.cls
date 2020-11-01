@@ -5,9 +5,9 @@ public class ContactController{
 
     // branch one
     void createContact (){
-        Contact con = new Contact(
+        Contact contact = new Contact(
             LastName = 'TEST Contact'
         );
-        System.debug(Database.insert(con, false));
+        Database.insert(con, false);
     }
 }
